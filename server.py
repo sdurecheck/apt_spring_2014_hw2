@@ -6,7 +6,8 @@ import os
 def index():
     name = 'APT Spring 2015'
     participants = [
-       'Roman Khabirov',
+      'Roman Khabirov',
+      'German Ilyin',
     ]
     return template("""
     <h1>HW2 for {{course}}</h1>
